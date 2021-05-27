@@ -74,7 +74,8 @@
               "browserTarget": "product-viewer-app:build:production"
             },
             "development": {
-              "browserTarget": "product-viewer-app:build:development"
+              "browserTarget": "product-viewer-app:build:development",
+              "proxyConfig": "src/proxy.conf.json"
             }
           },
           "defaultConfiguration": "development"
